@@ -1,0 +1,5 @@
+<h1>Results Page!!!</h1>
+
+<% data.GoodreadsResponse.search["0"].results["0"].work.forEach(function(book) { %>
+    <li><%= book.best_book["0"].title %></li>
+<% }) %>
